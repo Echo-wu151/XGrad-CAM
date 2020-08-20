@@ -1,19 +1,21 @@
 # XGrad-CAM implementation in Pytorch 
 
-Code for the paper:
+This is the official pytorch implementation of the paper:
 ### [Axiom-based Grad-CAM: Towards Accurate Visualization and Explanation of CNNs](https://arxiv.org/pdf/2008.02312v3)
 
-to be presented at **BMVC 2020**,
+to be presented at **BMVC 2020 (Oral presentation)**,
 <br>
 Authors:
 <br>
 Ruigang Fu,
-Qingyong Hu,
+[Qingyong Hu](https://qingyonghu.github.io/)
 Xiaohu Dong,
-Yulan Guo,
+[Yulan Guo](http://yulanguo.me/),
 Yinghui Gao and
 Biao Li,
 <br>
+
+**[[Paper](https://arxiv.org/abs/2008.02312)] [[Blog](https://zhuanlan.zhihu.com/p/175994533)]** <br />
 
 ----------
 
@@ -57,14 +59,13 @@ For any class of interest, the result will show that `class_score-gradients*feat
 These codes are based on https://github.com/jacobgil/pytorch-grad-cam.
 Thanks to the author Jacob Gildenblat for the beautiful original code.
 
-If these codes are useful to you, please cite our work:
+If you find our work useful in your research, please consider citing:
 ```
-@misc{fu2020axiombased,
-    title={Axiom-based Grad-CAM: Towards Accurate Visualization and Explanation of CNNs},
-    author={Ruigang Fu and Qingyong Hu and Xiaohu Dong and Yulan Guo and Yinghui Gao and Biao Li},
-    year={2020},
-    eprint={2008.02312},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@inproceedings{fu2020axiom,
+  title={Axiom-based Grad-CAM: Towards Accurate Visualization and Explanation of CNNs},
+  author={Fu, Ruigang and Hu, Qingyong and Dong, Xiaohu and Guo, Yulan and Gao, Yinghui and Li, Biao},
+  booktitle={British Machine Vision Conference},
+  year={2020}
 }
 ```
+
